@@ -1,0 +1,33 @@
+.geral-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: red;
+}
+.geral-info h1 {
+    font-size: 32px;
+    color: #ddd;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+a {
+    color: #17a2b8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.geral-info h1 {
+    font-size: 32px;
+    color: #212529;
+    line-height: 24px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+h5.card-header {
+    font-size: 17px;
+    padding: 6px;
+}

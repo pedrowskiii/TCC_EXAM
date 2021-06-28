@@ -1,0 +1,157 @@
+header#main-header {
+    width: 100%;
+    height: 60px;
+    background: #bfbfc6
+   
+}
+
+a.navbar-brand {
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand {
+    color: #f31227 !important;
+    margin-top: 4px;
+
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    font-size: 21px;
+}
+
+.bg-light {
+    background-color: #eee!important;
+}
+
+.geral-list {
+    margin: 20px auto 0;
+    padding: 0 20px;
+    font-size: 14px !important;
+}
+
+.geral-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.geral-info h1 {
+    font-size: 24px  !important;
+    color: #ddd;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.corpo-card {
+    padding: 10px;
+}
+
+.configdiv {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.configdiv form {
+    background: #eee;
+    padding: 19px;
+    /* border: 1px solid; */
+    font-size: 16px;
+}
+button.btn.btn-primary {
+    font-size: 17px;
+    margin-top: 14px;
+    float: right;
+}
+
+input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+h1.title {
+    text-align: center;
+    margin: 10px 0;
+}
+
+table.table.table-bordered {
+    font-size: 17px;
+}
+
+div#prontuario {
+    width: 600px;
+}
+
+div#prontuario input {
+    width: 95%;
+
+}
+
+input#diagnostico, input#medicamento, input#exames {
+    height: 129px;
+}
+div#prontuario input {
+    margin-left: 11px;
+    padding: 6px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #17a2b8;
+    font-size: 19px;
+}
+
+input#nome:read-only {
+    background-color: yellow;
+  }
+
+  span.novopront {
+    float: right;
+    background: #337ab7;
+    border-radius: 5px;
+    padding: 10px;
+}
+span.novopront a {
+    color: #f8f9fa;
+}
+
+
+h5.card-header a {
+    background: #337ab7;
+    float: right;
+    padding: 7px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+button.btn.btn-primary{
+    background: #337ab7;
+}
+
+select {
+    margin-top: 12px;
+    margin-bottom: 21px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+div#prontuario select {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #bfbfcc;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
